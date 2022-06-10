@@ -1,0 +1,30 @@
+.field {
+  font-size: 18px;
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &-header {
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  &-main {
+    font-size: 14px;
+    color: grey;
+  }
+}
+
+.range-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .range {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+  }
+}
